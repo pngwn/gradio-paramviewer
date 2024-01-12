@@ -8,7 +8,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gradio_paramviewer"
-version = "0.0.3"
+version = "0.0.4"
 description = "A gradio component that renders a pretty table for python or javascript function or method parameters."
 readme = "README.md"
 license = "MIT"
@@ -39,25 +39,7 @@ dev = ["build", "twine"]
 repository = "https://github.com/pngwn/gradio-paramviewer"
 
 [tool.hatch.build]
-artifacts = [
-  "/backend/gradio_paramviewer/templates",
-  "*.pyi",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-  "backend/gradio_paramviewer/templates",
-]
+artifacts = ["/backend/gradio_paramviewer/templates", "*.pyi", "Users/peterallen/.pyenv/versions/3.12.1/lib/python3.12/site-packages/gradio_paramviewer/templates", "backend/gradio_paramviewer/templates"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["/backend/gradio_paramviewer"]
